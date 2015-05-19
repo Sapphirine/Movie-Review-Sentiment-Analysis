@@ -20,6 +20,7 @@ Importance:
 2. Provide a method to implement sentiment analysis with high accuracy, which not only can be performed for movie reviews, but also for other kinds of text processing. 
 
 Dataset:
+
 MovieLens 1M dataset - including 1 million ratings from 6000 users on 4000 movies. 
 http://grouplens.org/datasets/movielens/ 
 
@@ -28,10 +29,15 @@ Large Movie Review Dataset v1.0 - including 50,000 reviews along with their asso
 Rotten Tomatoes Movie Reviews Dataset - including 15,000 unlabeled reviews from critics for 2000 movies. Built by ourselves. 
 
 Language:
+
 Languages - Python/PHP/MySQL/HTML/. Platforms - Spark/Linux/Apache/MySQL. 
 
 Analytics: 
+
 1. Movie review sentiment analysis. 
+
 2. Natural language processing. 
+
 3. Naive Bayes classifier. 
+
 4. Feature extraction by detecting bigrams.
