@@ -1,7 +1,6 @@
 # Movie-Review-Sentiment-Analysis
-=================================
 Objective: 
-
+----------
 Develop our own online movie shopping website/Implement movie review sentiment analysis to improve user experience 
 
 Innovations: 
