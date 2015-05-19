@@ -19,7 +19,9 @@ Part B) the folder contains python files and datasets related to sentiment analy
     
     This is the Rotten Tomatoes reviews dataset. We use this dataset to predict sentiment labels of each review. 
     
-    You also need to download Large Movie Review Dataset v1.0 from http://ai.stanford.edu/~amaas/data/sentiment/, which we use as training dataset and test dataset. There is one well-written README file in the package describing the dataset.
+    aclImdb
+    
+    This is the Large Movie Review Dataset v1.0 from http://ai.stanford.edu/~amaas/data/sentiment/, which we use as training dataset and test dataset. There is one well-written README file in the folder describing the dataset.
     
     To run the .py files, first you need to install nltk toolkit, scikit-learn toolkit and tabulate package. You can try
     
