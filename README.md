@@ -1,4 +1,24 @@
 # Movie-Review-Sentiment-Analysis
+
+This document can help you use the following repository.
+https://github.com/Sapphirine/Movie-Review-Sentiment-Analysis
+
+Part A) the folder contains a well-built online movie website.  
+
+    To run this online movie website, you need to get an access to a LAMP server. LAMP stands for Linux, Apache, MySQL, PHP. 
+
+    First, copy the content of this folder to the root of your server, e.g. /var/www/html.
+    
+    Then, execute movie_sc.sql and populate.sql subsequently to create the MySQL database for the movie website.
+
+    Finally, open a terminal and type in the command “ifconfig” to see the IP address of your server. Find another computer, and type in the above address, you should be able to browse the movie website now.
+
+Part B) the folder Movie_Recommendation_Engine contains a graph database based movie recommendation engine. Detailed discussion could be found in M. A. Rodriguez’s blog, http://markorodriguez.com/2011/09/22/a-graph-based-movie-recommender-engine/. The gremlin_commands.txt contains all the commands that are needed to build a movie recommendation engine. 
+
+    To run this command, you need to read the above blog, and install gremlin-1.3 on your computer. Besides that, you also need to download the MovieLens 1M dataset from the following link http://grouplens.org/datasets/movielens/.
+
+    In addition, we also include a java log file analysis tool that can be used to process your website’s user log file and generate the user preferences for you. 
+    
 Objective: 
 ----------
 Develop our own online movie shopping website/Implement movie review sentiment analysis to improve user experience. 
