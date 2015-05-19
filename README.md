@@ -1,5 +1,6 @@
 # Movie-Review-Sentiment-Analysis
-Objective: Develop our own online movie shopping website/Implement movie review sentiment analysis to improve user experience 
+#Objective: 
+Develop our own online movie shopping website/Implement movie review sentiment analysis to improve user experience 
 
 Innovations: 
 1. Using PHP/HTML language to build a online movie website. 
