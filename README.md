@@ -29,18 +29,18 @@ Part B) the folder contains python files and datasets related to sentiment analy
     
     $ pip install <package-name>
     
-    or install packages from official website. 
+    or install packages from official website.
 
-    After installation, first run csvToTxt.py to extract the Rotten Tomatoes reviews data. Notice that you need to change all the file path to your local path. For example:
+    build_csv.py
+
+    This is the python script to fetch critics movie reviews from Rotten Tomatoes API into “critics.csv”, which is the dataset for the online movie website. To run this file, first you must have a Rotten Tomatoes API key, please go to http://developer.rottentomatoes.com/member/register to register one. After you get your API key, fill it in “api_key” row to replace ‘YOUR KEY HERE’ in the code. Besides, you need to install python libraries numpy, scikit-learn, json, pandas, matplotlib, requests.
+
+    Then run csvToTxt.py to extract the Rotten Tomatoes reviews data. Notice that you need to change all the file path to your local path. For example:
     
     change dir_name = '/Users/tianhan/Documents/ColumbiaU/Spring15/Adv_Big_Data_Analytics/Project/Reviews'
     
     to dir_name = '/Users/<your-username>/.../Reviews'
     
-    build_csv.py
-    
-    This is the python script to fetch critics movie reviews from Rotten Tomatoes API into “critics.csv”, which is the dataset for the online movie website. To run this file, first you must have a Rotten Tomatoes API key, please go to http://developer.rottentomatoes.com/member/register to register one. After you get your API key, fill it in “api_key” row to replace ‘YOUR KEY HERE’ in the code. Besides, you need to install python libraries numpy, scikit-learn, json, pandas, matplotlib, requests. Then, you can try.
-
     Then you can run evaluation.py to see the evaluation results of different algorithms, run classifyUpdateLabelsInDataset.py to update the sentiment labels of reviews in Rotten Tomatoes reviews dataset, or run classifySingleReview.py to classify a single review.
     
     
