@@ -23,7 +23,9 @@ Part B) the folder contains python files and datasets related to sentiment analy
     
     This is the Large Movie Review Dataset v1.0 from http://ai.stanford.edu/~amaas/data/sentiment/, which we use as training dataset and test dataset. There is one well-written README file in the folder describing the dataset.
     
-    To run the .py files, first you need to install nltk toolkit, scikit-learn toolkit and tabulate package. You can try
+    Sentiment Analysis
+    
+    Including all the files doing sentiment analysis of reviews. To run the .py files, first you need to install nltk toolkit, scikit-learn toolkit and tabulate package. You can try
     
     $ pip install <package-name>
     
