@@ -29,7 +29,9 @@ Part B) the folder contains python files and datasets related to sentiment analy
     
     $ pip install <package-name>
     
-    or install packages from official website. After installation, first run csvToTxt.py to extract the Rotten Tomatoes reviews data. Notice that you need to change all the file path to your local path. For example:
+    or install packages from official website. 
+
+    After installation, first run csvToTxt.py to extract the Rotten Tomatoes reviews data. Notice that you need to change all the file path to your local path. For example:
     
     change dir_name = '/Users/tianhan/Documents/ColumbiaU/Spring15/Adv_Big_Data_Analytics/Project/Reviews'
     
