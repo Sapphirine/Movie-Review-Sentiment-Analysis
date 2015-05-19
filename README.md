@@ -1,11 +1,16 @@
 # Movie-Review-Sentiment-Analysis
-#Objective: 
+Objective: 
+
 Develop our own online movie shopping website/Implement movie review sentiment analysis to improve user experience 
 
 Innovations: 
+
 1. Using PHP/HTML language to build a online movie website. 
+
 2. Using MySQL to manage the movie and customer information. 
+
 3. Implementing the review sentiment analysis system with very high accuracy. 
+
 4. Building the movie dataset which contains movie basic information along with associated critics reviews. 
 
 Importance: 
