@@ -15,7 +15,7 @@ Part A) the folder contains a well-built online movie website.
 
 Part B) the folder contains python files and datasets related to sentiment analysis of reviews. 
 
-    ###critics.csv 
+    critics.csv 
     
     This is the Rotten Tomatoes reviews dataset. We use this dataset to predict sentiment labels of each review. 
     
