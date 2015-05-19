@@ -13,12 +13,28 @@ Part A) the folder contains a well-built online movie website.
 
     Finally, open a terminal and type in the command “ifconfig” to see the IP address of your server. Find another computer, and type in the above address, you should be able to browse the movie website now.
 
-Part B) the folder Movie_Recommendation_Engine contains a graph database based movie recommendation engine. Detailed discussion could be found in M. A. Rodriguez’s blog, http://markorodriguez.com/2011/09/22/a-graph-based-movie-recommender-engine/. The gremlin_commands.txt contains all the commands that are needed to build a movie recommendation engine. 
+Part B) the folder contains python files and datasets related to sentiment analysis of reviews. 
 
-    To run this command, you need to read the above blog, and install gremlin-1.3 on your computer. Besides that, you also need to download the MovieLens 1M dataset from the following link http://grouplens.org/datasets/movielens/.
-
-    In addition, we also include a java log file analysis tool that can be used to process your website’s user log file and generate the user preferences for you. 
+    critics.csv 
     
+    This is the Rotten Tomatoes reviews dataset. We use this dataset to predict sentiment labels of each review. 
+    
+    aclImdb
+    
+    This is the folder containing Large Movie Review Dataset v1.0, which we use as training dataset and test dataset. There is one well-written README file in this folder describe the dataset.
+    
+    To run the .py files, first you need to install nltk toolkit, scikit-learn toolkit and tabulate package. You can try
+    
+    $ pip install <package-name>
+    
+    or install packages from official website. After installation, first run csvToTxt.py to extract the Rotten Tomatoes reviews data. Notice that you need to change all the file path to your local path. For example:
+    
+    change dir_name = '/Users/tianhan/Documents/ColumbiaU/Spring15/Adv_Big_Data_Analytics/Project/Reviews'
+    
+    to dir_name = '/Users/<your-username>/.../Reviews'
+    
+    Then you can run evaluation.py to see the evaluation results of different algorithms, run classifyUpdateLabelsInDataset.py to update the sentiment labels of reviews in Rotten Tomatoes reviews dataset, or run classifySingleReview.py to classify a single review.
+
 Objective: 
 ----------
 Develop our own online movie shopping website/Implement movie review sentiment analysis to improve user experience. 
