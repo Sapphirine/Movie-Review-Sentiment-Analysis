@@ -46,11 +46,11 @@ Part B) the folder contains python files and datasets related to sentiment analy
     
 Objective: 
 ----------
-Develop our own online movie shopping website/Implement movie review sentiment analysis to improve user experience. 
+Develop your own online movie shopping website/Implement movie review sentiment analysis to improve user experience. 
 
 Innovations: 
 ------------
-1. Using PHP/HTML language to build a online movie website. 
+1. Using PHP/HTML/CSS  language to build an online movie website. 
 
 2. Using MySQL to manage the movie and customer information. 
 
@@ -85,4 +85,4 @@ Analytics:
 
 3. Naive Bayes classifier. 
 
-4. Feature extraction by detecting bigrams.
+4. Feature extraction by detecting digrams.
